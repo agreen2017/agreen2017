@@ -1,0 +1,526 @@
+/*----------------------------------
+		Theme657
+----------------------------------*/
+
+/*----------------------------------
+		Typography Reset
+----------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+h1 {font-size:20px;margin:10px 0;font-family: Georgia, "Nimbus Roman No9 L", serif;}
+h2 {font-size:20px;margin:10px 0;;font-family: Georgia, "Nimbus Roman No9 L", serif;}
+h3 {font-size:20px;margin:10px 0;;font-family: Georgia, "Nimbus Roman No9 L", serif;}
+h4 {font-size:16px;margin:5px 0;padding:0;font-family: Georgia, "Nimbus Roman No9 L", serif;}
+h5 {font-size:13px;font-weight:bold;margin:5px 0;padding: 0px;font-family: Georgia, "Nimbus Roman No9 L", serif;}
+h6 {font-size:13px;font-weight:bold;margin:3px 0; padding: 0px;font-family: Georgia, "Nimbus Roman No9 L", serif;}
+
+
+/*----------------------------------
+		General
+----------------------------------*/
+
+body {
+	margin: auto;
+	background-color: #ffffff;
+	color:#555555;
+	font-family: Verdana, Geneva, Kalimati, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	background-image: url(images/657_linenbg.gif);
+	background-repeat: repeat;		
+}
+
+.sf_outer_wrapper {
+	width: 990px;
+    margin: 0px auto;
+}
+
+
+.sf_wrapper {
+	width: 990px;
+    margin: 0 auto;	
+	background-image: url(images/657_contentbg.gif);
+	background-repeat: repeat-y;	
+}
+
+/*--------------------------------
+		Top Navigation
+---------------------------------*/
+
+.sf_navigation_top {
+	display: none;
+}
+
+/*--------------------------------
+		End Top Navigation
+---------------------------------*/
+
+.sf_extra10 {	
+}
+
+/*--------------------------------
+		Header
+---------------------------------*/
+
+.sf_region2 {		
+	min-height: 100px;
+	height: auto !important;
+	height:100px;
+	width: 990px;	
+}
+
+.sf_main_header {
+	text-align: left;	
+	font-family: Georgia, "Nimbus Roman No9 L", serif;
+	font-size: 42px;
+	font-weight: normal;
+	font-variant: normal;	
+	padding: 10px 25px 10px;
+	float: left;	
+}
+
+.sf_extra3 {	
+}
+
+.sf_sub_header {
+	display: none;
+}
+
+.sf_main_header p {
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------------
+		End Header
+--------------------------*/
+
+.sf_extra4 {	
+}
+
+/*--------------------------------
+		Bottom Navigation
+---------------------------------*/
+.sf_navigation h3 {
+	display:none;
+}
+
+.sf_navigation .widget_content {
+	padding: 0px;
+	margin: 0px;
+}
+
+.sf_navigation {	
+	clear:both;
+	font-family: Verdana, Geneva, Kalimati, sans-serif;
+	min-height:35px;
+	height:auto !important;
+	height:35px;	
+	padding:0px;
+	margin:5px 0 5px 17px;
+	_margin-left:16px;	
+	font-size:11px;
+	width: 956px;
+	background-image:url(images/657_navbg.gif);
+	background-repeat: repeat-y;	
+}
+
+.sf_navigation:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	font-height: 1px;
+	margin:0px;
+	padding:0px;
+}
+
+.sf_navigation ul {
+	margin:0 0 0 1px;
+	padding:0px;
+	list-style-type:none;
+	height:1%;
+	float:left;
+	width: 956px;
+}
+
+.sf_navigation ul:after {
+	content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 1px;
+    clear: both;
+}
+
+.sf_navigation ul li {	
+	float:left;		
+	white-space:nowrap;	
+	margin: 5px 0 0 14px;
+	_margin: 0;
+	_padding: 5px 0 0 14px;
+	min-height:30px;
+	height:auto !important;
+	height:30px;
+}
+
+.sf_navigation ul li.sf_first_nav_item {	
+}
+
+.sf_navigation ul li.sf_last_nav_item a {
+	border: none;		
+}
+
+.sf_navigation ul li a {
+	border-right: 1px solid #ccc;
+	color: #555555;
+	padding: 5px 10px 5px 0px;
+	text-decoration:none;
+	display: block;	
+}
+
+.sf_navigation ul li a:visited {
+	color: #555555;
+	text-decoration:none;
+}
+
+.sf_navigation ul li a:hover {
+	color: #555555;
+	text-decoration: underline;
+}
+
+/*------------------------------------
+	Flyout menu
+------------------------------------*/
+
+.sf_navigation .subnav { /* second-level lists */
+	float: left;
+	position: absolute;	
+	width: 168px;
+	left: -999em;
+	z-index: 1000;
+	margin:0 0 0 -15px;	
+	padding: 0;
+	min-height:1%;
+	height:auto !important;
+	height:1%;
+	background-image:url(images/657_subnav-ftr.png);
+	background-repeat: no-repeat;
+	background-position: bottom;			
+}
+
+.sf_navigation .subnav li { 		
+	background-image: none;
+	white-space: normal;
+	min-height:1%;
+	height:auto !important;
+	height:1%;	
+	margin: 0;
+	padding: 0;
+	width: 168px;		
+}
+
+.sf_navigation .subnav li a { 
+	width: 138px;
+	height: auto;
+	padding: 3px 15px;
+	color: #555555;
+	border: none;
+	background-color: #EFF1F4;
+	background-image:url(images/657_subnav-bg.png);
+	background-repeat: repeat;	
+}
+
+.sf_navigation .subnav li a:visited {
+	color: #555555;
+}
+
+.sf_navigation .subnav li a:hover { 
+	width: 138px;
+	color: #555555;
+	text-decoration: none;
+	text-decoration: underline;
+	height: auto;
+}
+
+.sf_navigation .subnav .sf_first_nav_item_subnav {	
+}
+
+.sf_navigation .subnav .sf_last_nav_item_subnav {
+	padding-bottom: 15px;		
+}
+
+#Nav1 li:hover ul, 
+#Nav1 li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;	
+}
+
+#Nav1 iframe {
+	position: absolute;
+	/* account for the border */
+	left: -0.25em;
+	top: -0.25em;
+	z-index: 0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+	margin-left: 3px;
+}
+ 
+#Nav1 li:hover, #Nav1 li.hover {  
+    position: static;  
+}
+
+/*--------------------------------
+		End Bottom Navigation
+---------------------------------*/
+
+.sf_extra5 {	
+}
+
+/*--------------------------------
+		 	Page Title
+---------------------------------*/
+
+.sf_pagetitle {		
+	margin: 15px 45px 5px;
+	_padding: 5px 45px;
+	_margin: 10px 0px;
+	text-align: left;
+	float:left;
+	font-weight: normal;
+	font-family: Georgia, "Nimbus Roman No9 L", serif;
+	font-size: 20px;
+	width: 900px;
+	clear:both;	
+}
+
+.sf_pagetitle h1 {
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+}
+
+/*--------------------------------
+		 End Page Title
+---------------------------------*/
+
+.sf_extra6 {
+}
+
+.sf_extra11 {	
+}
+	
+/*--------------------------
+		Content
+--------------------------*/
+
+.sf_content {	
+	float: left;	
+	padding:0 10px 20px 35px;	
+	min-height: 250px;
+	width: 940px;
+}
+
+.sf_content:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/*--------------------------
+		End Content
+--------------------------*/
+
+.sf_extra12 {	
+}
+
+.sf_extra7 {	
+}
+
+/*--------------------------
+		 Footer
+--------------------------*/
+.sf_region9 {
+	clear: both;
+	min-height:1%;
+	height:auto !important;
+	height:1%;
+	width: 979px;
+	background-color: #eff1f4;	
+	margin: 0px 6px;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #50525A;
+}
+
+.sf_footer {	   
+    clear:both;	
+	font-family: Verdana, Geneva, Kalimati, sans-serif;	
+	text-align:center;	
+	padding:20px;
+	font-size:11px;		
+	color:#555555;
+}
+
+.sf_footer p {
+	margin:0px;
+	padding:0px;
+}
+
+.sf_banner {
+	text-align:center;
+	font-size: 11px;
+	margin-bottom: 10px;	
+}
+
+#bannerLink {
+	padding: 10px;
+	margin: 10px;
+}
+
+#bannerLink a, #bannerLink a:visited, #bannerLink a:hover{
+	color: #333;
+}
+
+/*--------------------------
+		End Footer
+--------------------------*/
+
+.sf_extra8 {	
+}
+
+.sf_extra9 {	
+}
+
+/*--------------------------
+		Sidebar
+--------------------------*/
+.sf_region4 {
+	float: right;
+	display:inline;
+	width: 200px;
+	padding: 20px 40px 50px 0px;
+	_padding: 20px 20px 50px 0px;
+	overflow: hidden;
+	display:none;
+}
+
+.sf_region4 .widget_content {
+	overflow:hidden;
+	padding: 7px;
+	background-color: #eff1f4;
+	border-left: 1px solid #d6d9e1;
+	border-right: 1px solid #d6d9e1;
+	border-top: 1px solid #d6d9e1;
+	font-size: 12px;
+	_display: inline-block;
+}
+
+.sf_region4.widget_content img {	
+	border: 1px solid #d6d9e1;
+}
+
+.widgetset .widget {	
+	margin-bottom:10px;	
+	min-height: 1%;
+	height: auto !important;
+	height: 1%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 15px;		
+}
+
+.widgetset .widget_header {
+	margin:0px 0px 3px;
+	padding:5px;
+	font-size:20px;
+	font-weight: normal;
+	background-color: #EFF1F4;
+	border: 1px solid #d6d9e1;
+}
+
+.widgetset .widget_header a,
+.widgetset .widget_header a:visited {
+	color: #555555;
+}
+
+.widgetset .widget_header a:hover {
+	color: #777777;
+}
+
+.widgetset ul, .widgetset ol {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+.widgetset li {
+	margin:0px;
+	padding:3px 0px;	
+	overflow:hidden;
+}
+
+.widgetset a:link, .widgetset a:visited {
+	text-decoration:none;
+	padding: 2px 0px;
+}
+
+.widgetset a:hover {
+	padding: 2px 0px;
+	text-decoration: underline;
+}
+
+.widgetset .widget-content img a:hover {
+	background-color: transparent;
+}
+
+.widgetset .form_item {
+	margin:5px 0px;
+}
+
+.widgetset input, .widgetset select {	
+	width:150px;
+}
+
+.widgetset .btn {
+	width:auto;
+	margin: 3px 0px;
+}
+
+/*--------------------------
+		Other
+--------------------------*/
+
+.btn, .checkout a.button, .checkout input.button {
+	margin: 3px 3px 3px 0;
+	padding: 4px;	
+	font-size: 11px;
+	font-weight: normal;
+	font-family: Verdana, Geneva, Kalimati, sans-serif;
+	cursor: pointer;
+	border-style: solid;
+	border-width: 1px;	
+	border-color: #c2c6ce;
+	background-color: #EFF1F4;	
+}
+
+.btn:hover, .checkout a.button:hover, .checkout input.button:hover {
+	background-color: #e2e4e7;
+}
+
+.sf_region4 .btn, .checkout a.button, .checkout input.button {	
+	border-color: #ffffff;	
+	color: #ffffff;	
+}
+
+.sf_region4 .btn:hover, .checkout a.button:hover, .checkout input.button:hover {	
+	color: #ffffff;		
+}
+
+.quick-search .btn {
+	padding: 1px;
+}
+
+input[type="text"], textarea {
+	border-color: #d6d9e1;
+}

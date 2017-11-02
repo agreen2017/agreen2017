@@ -1,0 +1,78 @@
+ /*----------------------------------
+		Theme657
+----------------------------------*/
+.sf_main_header {
+	color: #E32D91;
+}
+
+.btn, .checkout a.button, .checkout input.button {	
+	color: #E62E86;
+	border: 1px solid #E62E86;
+}
+
+.sf_region4 .btn, .checkout a.button, .checkout input.button {	
+	background-color: #E32D91;	
+}
+
+.sf_region4 .btn:hover, .checkout a.button:hover, .checkout input.button:hover {	
+	background-color: #EF3B9F;
+}
+
+a:link {
+	color: #E62E86;
+	text-decoration: none;	
+}
+
+a:visited {
+	color: #E62E86;
+	text-decoration: none;		
+}
+
+a:hover {
+	color: #E62E86;
+	text-decoration: underline;	
+}
+
+/* DB Now */
+
+.Data_Central_color1 {
+ background-color:#E32D91;
+ color:#ffffff;
+}
+.Data_Central_color2 {
+ background-color:#9F9F9F;
+ color:#000000;
+}
+.Data_Central_color3 {
+ background-color:#CFCFCF;
+ color:#000000;
+}
+.Data_Central_color3 a,
+.Data_Central_color3 a:visited { 
+ color:#000000;
+ text-decoration:underline;
+}
+.Data_Central_color3 a:hover { 
+ color:#000000;
+ text-decoration:none;
+}
+.Data_Central_color4 {
+ background-color:#ffffff;
+ color:#000000;
+}
+.Data_Central_color5 {
+ border-color:#EFEFEF;
+}
+.Data_Central_color6 {
+ background-color:#EFEFEF;
+ color:#000000;
+}
+.Data_Central_color7 {
+ background-color:#333333;
+ color:#ffffff;
+}
+
+/* End DB Now */
+
+
+

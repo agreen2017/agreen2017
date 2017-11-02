@@ -1,0 +1,107 @@
+body{ 
+    background-image: url("../images/orighometemptra.png");
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+
+}
+.container {
+    width: 1000px;
+    height: 1100px;
+    border: 50px solid white;
+    padding: 100px;
+    background-color: #E8E8E8;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-right: black solid;
+    border-top: black solid;
+    border-left: black solid;
+    border-bottom: black solid;
+    border-radius: 25px;
+}
+
+nav {
+
+display: flex;
+width: 100%;
+height: 2.0em;
+text-align: center;
+margin: auto;
+justify-content: space-around;
+border-radius: 25px;
+}
+
+nav a {
+color: #484848;
+font-size: 1.0em;
+text-decoration: none;
+padding-top: .50em;
+padding-bottom: 1.00em;
+
+}
+
+nav a:hover {
+background-color: #f40295;
+border-radius: 25px;
+padding-left: .50em;
+padding-right: .50em;
+}
+
+.watch {
+margin-left: 10%;
+}
+
+h1 {
+font: 2.80em 'Arizonia', Helvetica, sans-serif;
+text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+text-align: center;
+}
+
+
+p{
+font-size: 1.1em;
+color: #484848;
+}
+
+.containercontact body {
+padding-top:20px;
+}
+
+.aboutnote {
+font-weight: bold;
+}
+
+legend {
+    font: 2.80em 'Arizonia', Helvetica, sans-serif;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+    text-align: center;
+}
+.name {
+    font-size: 1.2em;
+}
+
+#name {
+    width: 50%;
+}
+.email {
+    font-size: 1.2em;
+}
+#email {
+    width: 50%;
+}
+.message {
+    font-size: 1.2em;
+}
+#message {
+    width: 100%;
+}
+
+button {
+    background-color: #f40295;
+}
+
+
+
